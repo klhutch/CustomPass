@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CustomPass</title>
+	<link rel="stylesheet" href="css/basic.css">
+	<script type="text/javascript" src="createpass.js"></script>
+</head>
+<body>
+	<div id="top">
+		<h1><a href="">Create a Custom Password</a></h1>
+	</div>
+	<div id="pass">
+	<form class="main" id="CustomPass">
+		<label>Min</label>
+		<input type="text" for="CustomPass" value="5" name="min" id="min" class="main">
+		<label>Max</label>
+		<input type="text" for="CustomPass" value="10" name="max" id="max" class="main">
+		</br>
+		<button type="button" for="CustomPass" 
+			onclick="createPass()" class="main" name="submit">Create</button>
+	</form>
+	</div>
+</body>
+</html>

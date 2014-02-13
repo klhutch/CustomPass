@@ -1,0 +1,45 @@
+/* Color Scheme  4t61-g0rb1Q-y from colorschemedesigner.com */
+body {
+	background-color: #F7F2FE;
+	color: black;
+	width: 100%;
+	font-family: Verdana, Sans-serif;
+	letter-spacing: -3;
+	word-spacing: -2
+	line-height: 1;
+}
+#top {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: inherit;
+	height: 4em;
+	background-color: #9C4C88;
+	/*border-bottom: .5px solid #FEBEEE;*/
+}
+#top h1 {
+	position: relative;
+	top: -.5em;
+	font-weight: normal;
+	text-align: center;
+	font-size: 37px;
+	
+}
+#top h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+#pass {
+	width: 30%;
+	min-width: 20em;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10em;
+	border: 1px solid grey;
+	opacity: 5%;
+	border-radius: 4px;
+}
+#pass p {
+	text-align: center;
+}

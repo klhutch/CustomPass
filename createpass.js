@@ -25,7 +25,7 @@ function createPass()
 	//var source = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
 	var p = "";
 	
-	while (p.length <= length) {
+	while (p.length < length) {
 		p = p.concat(chooseNext()); 
 	}
 	
